@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/hanlu/.android/build-cache/de1edae383bda68396d58731e4c309bf6a2a2603/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/hanlu/OlineTeach2/app/build/intermediates/pre-dexed/debug/classes_78c3eae9da94e1461adc066ec6958f088cb85434.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hanlu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/hanlu/OlineTeach2/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1_48654bf3beeb1f967343cc49dc41f0c67abfdbbd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hanlu/.android/build-cache/fad93dd51985bab50f074dce511dff6860acff8b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/hanlu/OlineTeach2/app/build/intermediates/pre-dexed/debug/classes_b5a9e78e108649ca56c8481fe41d3d26980404f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hanlu/.android/build-cache/70462fc957fad54720d06c4777977ffef50f4bc2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/hanlu/OlineTeach2/app/build/intermediates/pre-dexed/debug/classes_8ab642e52a36b49d3a67c57bf9b85ed84022138f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hanlu/.android/build-cache/81675cfce505d03ea9325391f914f1278317f59a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/hanlu/OlineTeach2/app/build/intermediates/pre-dexed/debug/classes_a44b67f3534cb315c4631ea346d6b5b22e124641.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hanlu/.android/build-cache/d8b37504616a08ea3a616918885006231db53966/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/hanlu/OlineTeach2/app/build/intermediates/pre-dexed/debug/classes_ffd546e90e4610b2cba754663828225736ddaf8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hanlu/.android/build-cache/bc5e2923f34bab3983fbbf4cc2d27d2cd1a6fae5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/hanlu/OlineTeach2/app/build/intermediates/pre-dexed/debug/classes_106e7b6a29c51fc739d8446dca5ab8e312202dc1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hanlu/.android/build-cache/561d19a10cff0fc911716862e8ac9179dd1fb939/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/hanlu/OlineTeach2/app/build/intermediates/pre-dexed/debug/classes_72fa28be40512f344670e4feeb2044744cba2c6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hanlu/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/hanlu/OlineTeach2/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_c43efc0e330932b84880208831aa6e2781125bd2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hanlu/.android/build-cache/676ea91a0c4a1fb3c7f97e09dba8dc6baa0184c7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/hanlu/OlineTeach2/app/build/intermediates/pre-dexed/debug/classes_e61f1a1eee8e102d51f504dd9a68c49cd40a12c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hanlu/.android/build-cache/9f7366a811fb33961ca599436153dc43ec433218/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/hanlu/OlineTeach2/app/build/intermediates/pre-dexed/debug/classes_d19402315a0de953eea04622877f457a9708d1a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hanlu/.android/build-cache/89d47a115d04c04cdbf0e48468a392ca9703908d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/hanlu/OlineTeach2/app/build/intermediates/pre-dexed/debug/classes_7f742b95e43978c24502882a397cc2bf1f601e76.jar" />
+    </item>
+
+</items>
