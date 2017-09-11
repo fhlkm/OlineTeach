@@ -4,5 +4,7 @@
     <dimen name="button_height">80dp</dimen>
     <dimen name="button_length">100dp</dimen>
     <dimen name="video_width">400dp</dimen>
-    <dimen name="txt_size">30dp</dimen>
+    <dimen name="txt_size">15dp</dimen>
+    <dimen name="index_font_size">35dp</dimen>
+    <dimen name="margin_size">-5dp</dimen>
 </resources>

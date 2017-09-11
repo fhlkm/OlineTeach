@@ -1,9 +1,9 @@
 package com.china.online.teach;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -20,6 +20,8 @@ public class DetailActivity extends AppCompatActivity {
     Button mPrevious;
     Button mNext;
     TextView mVideoIndex;
+    View mPreviewFrame;
+    View mNextFrame;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,12 +33,14 @@ public class DetailActivity extends AppCompatActivity {
         initUI();
     }
     private void initUI(){
-        mImageView = (ImageView)findViewById(R.id.video_play);
-        video_description = (TextView)findViewById(R.id.video_detail_description);
-        mPrevious = (Button)findViewById(R.id.previous_video);
-        mNext = (Button)findViewById(R.id.next_video);
-        mVideoIndex = (TextView)findViewById(R.id.current_video_index);
+        mImageView = findViewById(R.id.video_play);
+        video_description = findViewById(R.id.video_detail_description);
+        mPrevious = findViewById(R.id.previous_video);
+        mNext = findViewById(R.id.next_video);
+        mVideoIndex =findViewById(R.id.current_video_index);
 
+        mPreviewFrame = findViewById(R.id.previous_video_frame);
+        mNextFrame = findViewById(R.id.next_video_frame);
     }
 
     @Override
