@@ -3,6 +3,7 @@ package com.china.online.teach;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -36,5 +37,19 @@ public class DetailActivity extends AppCompatActivity {
         mNext = (Button)findViewById(R.id.next_video);
         mVideoIndex = (TextView)findViewById(R.id.current_video_index);
 
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == android.R.id.home) {
+            closeActivity();
+        }
+        return true;
+    }
+
+    private void closeActivity(){
+        this.finish();
     }
 }

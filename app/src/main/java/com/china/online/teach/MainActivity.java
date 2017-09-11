@@ -33,28 +33,34 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         PrimaryDrawerItem item1 = new PrimaryDrawerItem().withIdentifier(1).withName("Online-Teach");
-        SecondaryDrawerItem search = new SecondaryDrawerItem().withIdentifier(2).withName("Search Catalog");
         SecondaryDrawerItem full_catalog = new SecondaryDrawerItem().withIdentifier(2).withName("Full Catalog");
+        SecondaryDrawerItem search = new SecondaryDrawerItem().withIdentifier(2).withName("Search Catalog");
+
         SecondaryDrawerItem my_catalog = new SecondaryDrawerItem().withIdentifier(2).withName("My Enrollments");
         mDrawer = new DrawerBuilder().withActivity(this).addDrawerItems(
                 item1,
                 new DividerDrawerItem(),
-                search,
-//                new SecondaryDrawerItem(),
                 full_catalog,
+                //                new SecondaryDrawerItem(),
+                search,
+
+
 //                new SecondaryDrawerItem(),
                 my_catalog
         ).withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
-                    @Override
-                    public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
-                        // do something with the clicked item :D
-                        return true;
-                    }
-                })
+            @Override
+            public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
+                // do something with the clicked item :D
+                return true;
+            }
+        })
                 .build();
         loadData();
         initUI();
 
+        // default select Full Catalog
+        mDrawer.setSelection(full_catalog,true);
+        mDrawer.openDrawer();
     }
     private void initUI(){
         mRecyclerView = findViewById(R.id.video_recycle);

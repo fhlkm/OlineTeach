@@ -29,27 +29,28 @@
         <Button
             android:id="@+id/previous_video"
             android:text="@string/previous"
-            android:textStyle="bold"
             android:textSize="@dimen/txt_size"
             android:layout_alignParentLeft="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
-        <TextView
-            android:id="@+id/current_video_index"
-            android:textStyle="bold"
-            android:textSize="@dimen/txt_size"
-            android:layout_centerHorizontal="true"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="2/15"/>
+
         <Button
             android:id="@+id/next_video"
-            android:textStyle="bold"
             android:textSize="@dimen/txt_size"
             android:text="@string/next"
             android:layout_alignParentRight="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+        <TextView
+            android:layout_toRightOf="@id/previous_video"
+            android:layout_toLeftOf="@id/next_video"
+            android:gravity="center_horizontal|center_vertical"
+            android:id="@+id/current_video_index"
+            android:textStyle="bold"
+            android:textSize="@dimen/txt_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2/15"/>
 
     </RelativeLayout>
 </RelativeLayout>
