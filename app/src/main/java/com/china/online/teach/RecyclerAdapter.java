@@ -1,6 +1,7 @@
 package com.china.online.teach;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -43,6 +44,12 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
         final Item item = itemList.get(position);
         holder.title.setText(item.getTitle());
         holder.image.setImageResource(item.getResId());
+        holder.image.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startDetailActivity();
+            }
+        });
         Bitmap bitmap = BitmapFactory.decodeResource(resources, item.getResId());
         //异步获得bitmap图片颜色值
         Palette.from(bitmap).generate(new Palette.PaletteAsyncListener() {
@@ -88,5 +95,10 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
             title = (TextView) itemView.findViewById(R.id.item_title);
             image = (ImageView) itemView.findViewById(R.id.item_image);
         }
+    }
+
+    private void startDetailActivity(){
+        Intent mIntent = new Intent(context,DetailActivity.class);
+        context.startActivity(mIntent);
     }
 }

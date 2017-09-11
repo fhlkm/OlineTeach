@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:id="@+id/vdeo_frame"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_height="@dimen/video_width"
+            android:layout_width="match_parent"
+            android:background="@drawable/four"
+            android:id="@+id/video_play"/>
+        <TextView
+            android:id="@+id/video_detail_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/video_description"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/previous_video"
+            android:text="@string/previous"
+            android:textStyle="bold"
+            android:textSize="@dimen/txt_size"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/current_video_index"
+            android:textStyle="bold"
+            android:textSize="@dimen/txt_size"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2/15"/>
+        <Button
+            android:id="@+id/next_video"
+            android:textStyle="bold"
+            android:textSize="@dimen/txt_size"
+            android:text="@string/next"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+</RelativeLayout>

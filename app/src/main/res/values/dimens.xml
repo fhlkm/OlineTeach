@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="cardview_default_elevation">2dp</dimen>
+    <dimen name="button_height">80dp</dimen>
+    <dimen name="button_length">100dp</dimen>
+    <dimen name="video_width">400dp</dimen>
+    <dimen name="txt_size">25dp</dimen>
 </resources>
