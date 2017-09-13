@@ -17,7 +17,7 @@ public class DetailActivity extends AppCompatActivity {
 
     ImageView mImageView;
     TextView video_description;
-    Button mPrevious;
+    Button mPrevious;;;;
     Button mNext;
     TextView mVideoIndex;
     View mPreviewFrame;
@@ -30,6 +30,7 @@ public class DetailActivity extends AppCompatActivity {
         setContentView(R.layout.detail);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("Detail");
+        initUI();
         initUI();
     }
     private void initUI(){
