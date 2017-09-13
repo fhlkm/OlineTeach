@@ -29,5 +29,6 @@ dependencies {
     compile('com.mikepenz:materialdrawer:5.9.5@aar') {
         transitive = true
     }
+    compile 'com.android.support:appcompat-v7:26.0.0'
     testCompile 'junit:junit:4.12'
 }
