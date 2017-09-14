@@ -6,7 +6,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class LoginActivity extends Activity {
+import com.china.online.teach.com.china.online.teach.wechat.WeChatApi;
+import com.tencent.mm.opensdk.modelbase.BaseReq;
+import com.tencent.mm.opensdk.modelbase.BaseResp;
+import com.tencent.mm.opensdk.modelmsg.SendAuth;
+import com.tencent.mm.opensdk.openapi.IWXAPIEventHandler;
+
+public class LoginActivity extends Activity  implements IWXAPIEventHandler{
 
     Button btn_wechat;
 
@@ -26,4 +32,24 @@ public class LoginActivity extends Activity {
 
 
     }
+
+    private void loginWechat(){
+        WeChatApi mApi = WeChatApi.getInstance();
+        mApi.initWechatInterface(this);
+        mApi.loginByWechat();
+    }
+
+    @Override
+    public void onReq(BaseReq baseReq) {
+
+    }
+
+    @Override
+    public void onResp(BaseResp baseResp) {
+        SendAuth.Resp resp = (SendAuth.Resp) baseResp;
+
+        String code = ((SendAuth.Resp) baseResp).code;
+
+        }
 }
+
