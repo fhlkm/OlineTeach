@@ -11,6 +11,7 @@ import com.tencent.mm.opensdk.openapi.WXAPIFactory;
  */
 
 public class WeChatApi {
+    //TODO need WeChat APP_ID
     private static final String APP_ID="";
     private IWXAPI iwxApi;
     private static WeChatApi mWeCahtApi = null;
